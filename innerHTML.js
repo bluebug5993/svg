@@ -15,7 +15,6 @@ Object.defineProperty(SVGElement.prototype, 'innerHTML', {
         return $temp.innerHTML;
     },
     set: function(markup) {
-        console.log('set');
         var $div, $element, $svg, _i, _len, _ref, _results;
         while (this.firstChild) {
             this.firstChild.parentNode.removeChild(this.firstChild);
